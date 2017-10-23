@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "NameBeta",
+    "version": "1.0.0",
+
+    "description": "Smart Domain Search Tool",
+    "icons": {
+        "16": "img/favicon-16.png",
+        "32": "img/favicon-32.png",
+        "48": "img/favicon-48.png",
+        "128": "img/favicon-128.png"
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "16": "img/favicon-16.png",
+            "32": "img/favicon-32.png",
+            "48": "img/favicon-48.png",
+            "128": "img/favicon-128.png"
+        },
+        "default_title": "NameBeta",
+        "default_popup": "popup.html"
+    },
+
+    "homepage_url": "https://namebeta.com/",
+
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
